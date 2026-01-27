@@ -1,0 +1,15 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#item-2{
+    /* usar a # para estilizar um elemento unico com o id */
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+    /* bold é negrito */
+}
+.borda-5{
+    border: 5px solid gainsboro
+}
+
+/* pode usar atalho para comentario aqui tambem da mesma maneira usando o ctrl + ; */
