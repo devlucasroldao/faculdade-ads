@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* a tecla "*"para eliminar o quadro dentro de outro quadro */
+
+body{
+    background-color: aliceblue;
+}
+div{
+    border: 5px solid;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 40%;
+    display: inline-block;
+}
+
+/* width para diminuir caixas */
+/* display inline block para deixar as caixas lado a lado */
+
+h1{
+    border: 3px solid; color: brown;
+    padding-left: 20px;
+    padding-top: 20px;
+    /* padding para dar espaço (preencher os espaços) */
+}
