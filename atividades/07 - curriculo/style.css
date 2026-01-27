@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    /* para bloquear aumento de tamanho da caixa */
+}
+
+body {
+    background-color: rgb(36, 37, 38);
+}
+
+
+.container {
+
+    height: 1000px;
+    width: 60%;
+    margin: 10px auto;
+    /* Dois valores no margin, primeiro(cima e embaixo), segundo (direita e esquerda) */
+}
+
+.esquerda {
+    background-color: black;
+    /* fundo ficará preto */
+    height: 100%;
+    /* altura */
+    width: 50%;
+    /* largura */
+    float: left;
+    color: white;
+    /* conteúdo escrito ficará branco */
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.direita {
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding: 80px 30px;
+    /* Colocar texto para baixo e para esquerda*/
+}
+img{
+    width: 250px;
+    border: 5px solid;
+    border-radius: 50%;
+    border: 10px solid rgb(153, 235, 118);
+    margin-top: 50px;
+    margin-left: 60px;   
+}
+h1{
+    font-size: 40px;
+    /* tamanho da fonte das letras */
+    margin-top: 20px;
+    /* Margem para afastar letras na caixa dos dois lados*/
+}
+h3{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    color:  rgb(153, 235, 118);
+    margin: 12px 0;
+    /* Estilizando h3 */
+}
+h2{
+    color:  rgb(153, 235, 118);
+    margin-top: 32px;
+    margin-block: 8px;
+}
+h4{
+    font-style: italic;
+    font-weight: 400;
+    margin: 8px 0;
+    font-size: 20px;
+}
+h5{
+    font-weight: 400;
+    margin: 8px 0;
+    font-size: 20px;
+    margin-top: 25px;
+    display: inline-block;
+    margin-right: 10px;
+    width: 200px;
+    height: 10px;
+    font-size: 18px;
+}
+.contatos{
+    border: 1px;
+    margin-top: 15px;
+}
+i{
+    color: rgb(153, 235, 118);
+    margin-right: 10px;
+    margin-top: 6px;
+}
+.direita h2{
+    /* ESTILIZAR H2 DA DIREITA */
+    color:black
+
+}
+.direita hr{
+    margin-left: -30px;
+    border: 1px solid;
+    /* colocar o hr sem margem */
+}
+.direita h3{
+    color:black;
+    font-size: 18px;
+}
+.direita h4{
+    font-size: 14px;
+}
+li{
+    margin-left: 30px;
+    margin-bottom: 16px;
+}
+.barra{
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+}
+.progresso-95{
+    height: 100%;
+    width: 95%;
+    background-color: rgb(153, 235, 118);
+    border-radius: 10px;
+}
+.progresso-20{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(153, 235, 118);
+    border-radius: 10px;
+}
+h6{
+    font-style: italic;
+    font-weight: 400;
+    margin: 8px 0;
+    font-size: 20px;
+    display: inline-block;
+    width: 100px;
+}
+.circulo{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(153, 235, 118);
+    border-radius: 50%;
+    display: inline-block;
+    border-color: black;
+    border: 1px solid;
+}
+.circulo-vazio{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(153, 235, 118);
+    border-radius: 50%;
+    display: inline-block;
+    border-color: black;
+    border: 1px solid;
+}
+a{
+    color: white;
+}
