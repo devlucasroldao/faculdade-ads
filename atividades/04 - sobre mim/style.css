@@ -1,0 +1,31 @@
+img{
+    border-radius: 50%;
+    border: 2px solid;
+}
+a{
+    color: black;
+    border-radius: 5px;
+    border: 2px solid;
+    padding: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+h2{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+h1{
+    font-size: 30px;
+}
+ul{
+    font-size: 20px;
+}
+body{
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
