@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-top: 0;
+}
+i{
+    color: brown;
+    font-size: 100px;
+    margin-left: 20px;
+}
+.barra{
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.progresso-50{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    border-radius: 10px;
+}
+.progresso-75{
+    height: 100%;
+    width: 75%;
+    background-color: black;
+    border-radius: 10px;
+}
+.progresso-25{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+}
+.circulo{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circulo-vazio{
+    width: 20px;
+    height: 20px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+body{
+    padding: 5%;
+}
+p{
+    display: inline-block;
+    width: 100px;
+}
+h2{
+    margin-top: 50px;
+}
+
+
+
+
+.fa-linkedin{
+    color: blue;
+}
+.fa-youtube{
+    color: red;
+}
+
+    /* font size para aumentar de tamanho os icons */
+    /* margin para dar espaço entre os icons */
