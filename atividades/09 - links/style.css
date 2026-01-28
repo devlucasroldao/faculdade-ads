@@ -1,0 +1,15 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/* border collapse para unir as bordas da tabela!!! */
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+/* se colocar virgula ao lado adiciona as mesmas propriedades */
+th{
+    color: blue;
+    background-color: darkcyan;
+    text-align: left;
+}
