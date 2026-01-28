@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* o simbolo "*" é o seletor universal pega todas as tags */
+header{
+    background-color: gray;
+    color: white;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* height: 25vh - atalho para fazer as caixas - 25% da altura da janela de visualização - */
+h1{
+    font-size: 50px;
+}
+nav{
+    width: 20%;
+    background-color: lightgray;
+    padding: 40px 20px;
+    float: left;
+    height: 100%;
+    /* dois valores no padding - primeiro em cima e em baixo - segundo direita e esquerda!!! */
+}
+ul{
+    list-style: none;
+}
+section{
+    width: 80%;
+    background-color: lightcyan;
+    padding: 40px 20px;
+    float: left;
+    height: 100%;
+
+}
+/* float para nivelar as caixas - fazer que elas flutuem!!! */
+footer{
+    background-color: gray;
+    color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clear{
+    clear: both;
+}
+/* criar classe para limpar */
+main{
+    height: 60vh;
+    display: flex;
+}
