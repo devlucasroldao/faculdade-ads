@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.foto img {
+    width: 320px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.card {
+    width: 280px;
+    height: 320px;
+}
+
+.card img {
+    height: 70%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+header{
+    background-color: gray;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    gap: 20px;
+}
+.text h2{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 30px 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.card{
+    background-color: lightgray;
+    border-radius: 10px solid;
+}
+
+.card h3{
+    text-align: center;
+    margin: 8px 0;
+}
+
+.card p{
+    padding: 4px 0;
+}
+
+footer{
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    padding: 20px;
+}
+
+.icones {
+    display: flex;
+    height: 40px;
+}
+
+.tech, p{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech, i{
+    gap: 50px;
+    margin: 6px;
+}
+
+.linha-pontilhada {
+    border-top: 5px dotted #000; 
+    border-left: none;          
+    border-right: none;
+    border-bottom: none;
+    padding: 10px;
+}
+
+
+
+
+@media (max-width: 768px){
+    header {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .about {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .projects {
+        justify-content: space-around; 
+    }
+
+    .projects .card {
+        margin-bottom: 30px; 
+    }
+}
+
+
+@media (max-width: 576px) {
+    header {
+        align-items: center; 
+    }
+
+    header nav ul {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    header nav li {
+        margin: 5px 0; 
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .about {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .projects {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .projects .card {
+        width: 90%; 
+        margin-bottom: 30px; 
+    }
+
+    body {
+        font-size: 14.4px;
+    }
+    
+}
