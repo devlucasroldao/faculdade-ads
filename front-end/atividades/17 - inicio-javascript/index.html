@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos e Funções</title>
+</head>
+
+<body onload="dizerOla()">
+
+    <h1>Eventos e Funções</h1>
+
+    <button onclick="dizerOla()">Dizer Olá</button>
+
+    <br><br>
+
+    <form>
+        <input onchange="textoMudou()" type="text" id="nome" placeholder="Digite seu nome: ">
+        <button type="button" onclick="salvar()">Salvar</button>
+    </form>
+
+
+    <h2 id="mouse" onmouseover="mouseCima()" onmouseout="mouseFora()">Passe o Mouse aqui!</h2>
+
+    <br><br>
+
+    <input onkeydown="verificarEnter()" type="text" id="foco" onfocus="emFoco()" onblur="perdeuFoco()">
+
+
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
