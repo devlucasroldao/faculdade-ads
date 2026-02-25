@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cálculo de Nota e Verificação de Aprovação</title>
+</head>
+<body>
+
+  <h2>Cálculo de Nota e Verificação de Aprovação!</h2>
+
+  <label>AP1 (0 a 2): 
+    <input type="number" id="ap1" onblur="validarNotas('ap1', 0, 2)">
+  </label><br><br>
+
+  <label>AP2 (0 a 3): 
+    <input type="number" id="ap2" onblur="validarNotas('ap2', 0, 3)">
+  </label><br><br>
+
+  <label>AS (0 a 5): 
+    <input type="number" id="as" onblur="validarNotas('as', 0, 5)">
+  </label><br><br>
+
+  <button onclick="calcularNota()">Calcule sua Nota!</button>
+
+  <p id="resultado"></p>
+
+  <script src="notas.js"></script>
+
+</body>
+</html>
