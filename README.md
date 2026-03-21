@@ -1,8 +1,5 @@
-# 📚 Faculdade - Análise e Desenvolvimento de Sistemas
-Repositório com atividades e projetos desenvolvidos durante a graduação.
-Meus trabalhos e atividades da faculdade!
+# 🎓 Faculdade ADS (Análise e Desenvolvimento de Sistemas)
 
-## 🖥️ Front-end
-Atividades envolvendo HTML, CSS e JavaScript, focadas em fundamentos e prática.
-## 🎯 Objetivo
-Registrar a evolução técnica e manter os projetos organizados para consulta futura.
+Repositório central dedicado a armazenar todos os meus trabalhos, atividades e anotações do curso de Análise e Desenvolvimento de Sistemas.
+
+Aqui você encontrará diversos mini-projetos e exercícios que documentam a minha evolução acadêmica nas mais diversas disciplinas do curso.
