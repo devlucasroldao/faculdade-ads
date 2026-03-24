@@ -1,0 +1,8 @@
+Criei meu projeto de tema livre escolhendo a agropecuária onde trabalho, pois assim poderia explorar melhor o conteúdo, já que conheço bem o local e sabia o que poderia utilizar no desenvolvimento do projeto.
+Usei anotações diretamente no HTML, em header, main, section, div e footer para facilitar a compreensão da estrutura. Nas cores, dei prioridade ao verde, que é a cor principal da logo da loja. Também utilizei ícones/emojis para personalizar a Navbar, recurso que aparece novamente em outros pontos do projeto.
+Na Navbar, usei o componente Dropdown três vezes e adicionei um botão que leva para outra página HTML, dedicada ao carrinho da loja. Foquei bastante na personalização da página principal.
+Seguindo para a Main, adicionei um carrossel com três imagens tiradas diretamente do Instagram da loja, o que trouxe um toque mais real e personalizado. Abaixo dele, criei uma área de produtos em destaque usando Cards, e em cada produto incluí a opção de compra via Modal, que oferece a escolha entre continuar comprando ou seguir para o carrinho.
+Também desenvolvi uma tabela para agendamento de banho e tosa, com diversas opções de preenchimento. Logo abaixo, adicionei seções sobre o atendimento veterinário, localização e informações sobre a empresa, tudo separado de forma organizada para facilitar a navegação.
+Para finalizar, inclui um Footer com botões que direcionam para conteúdos importantes do site, além dos links das redes sociais da loja (assim como já existe na Navbar). No HTML, deixei o modal posicionado abaixo de todo o conteúdo. Durante o projeto, utilizei bastante as classes row, d-flex e os containers, sempre buscando deixar o site o mais responsivo possível.
+Espero que tenha gostado! Valeu!
+

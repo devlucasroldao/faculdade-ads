@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho | Agrocenter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+
+
+
+<body class="bg-light">   <!-- SITE DO CARRINHO DE COMPRAS! -->
+
+    <header class="bg-success py-3 shadow">
+        <div class="container">
+            <h2 class="fa-solid text-dark mb-0"><i class="bi bi-cart-fill"></i> Carrinho de Compras</h2>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="table-responsive">
+            <table class="table align-middle">
+                <thead class="table-success">
+                    <tr>
+                        <th>Produto</th>
+                        <th>Nome</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                        <th>Subtotal</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="" alt="Produto" width="80" class="rounded" /></td>
+                        <td>Ração Premium</td>
+                        <td>R$ 89,90</td>
+                        <td><input type="number" value="1" min="1" class="form-control form-control-sm w-50" /></td>
+                        <td>R$ 89,90</td>
+                        <td><button class="btn btn-outline-danger btn-sm"><i class="bi bi-trash"></i></button></td>
+                    </tr>
+                    <tr>
+                        <td><img src="" alt="Produto" width="80" class="rounded" /></td>
+                        <td>Simparic 20mg</td>
+                        <td>R$ 86,00</td>
+                        <td><input type="number" value="2" min="1" class="form-control form-control-sm w-50" /></td>
+                        <td>R$ 79,80</td>
+                        <td><button class="btn btn-outline-danger btn-sm"><i class="bi bi-trash"></i></button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="text-end">
+            <h4>Total: <span class="text-success">R$ 169,70</span></h4>
+            <a href="" class="btn btn-success btn-lg mt-2"><i class="bi bi-check-circle-fill"></i>
+                Finalizar Compra</a>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="text-center mb-0">© 2025 Agropecuária Agrocenter - Site oficial criado por Lucas Roldão -
+            Todos os direitos reservados. </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
