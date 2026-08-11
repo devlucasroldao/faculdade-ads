@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Interativo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Dashboard Interativo</h1>
+    <button id="btn-tema">Alternar Tema</button>
+  </header>
+
+  <main>
+    <section id="contador" aria-labelledby="contador-titulo">
+      <h2 id="contador-titulo">Interações</h2>
+      <p id="valor-contador">0</p>
+
+      <div class="contador-controles">
+        <label for="passo">Passo:</label>
+        <input type="number" id="passo" placeholder="1">
+        <button id="btn-decrementar">-</button>
+        <button id="btn-incrementar">+</button>
+      </div>
+    </section>
+
+    <section id="galeria" aria-labelledby="galeria-titulo">
+      <h2 id="galeria-titulo">Galeria</h2>
+
+      <div class="galeria-destaque">
+        <img id="imagem-destaque" src="" alt="Imagem em destaque">
+      </div>
+
+      <div class="galeria-miniaturas" id="miniaturas"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Dashboard Interativo - TDE</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

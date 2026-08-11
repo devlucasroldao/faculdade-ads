@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+/* Header ocupando por volta de 20% da altura da tela */
+header {
+  min-height: 20vh;
+  background-color: #2f3a4c;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+
+#btn-tema {
+  background-color: #4a5b73;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-tema:hover {
+  background-color: #5c6f8a;
+}
+
+/* Painel principal ocupando por volta de 80% da altura da tela */
+main {
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 8px;
+}
+
+/* Contador */
+#valor-contador {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.contador-controles {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contador-controles input {
+  width: 70px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contador-controles button {
+  background-color: #2f3a4c;
+  color: #fff;
+  border: none;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contador-controles button:hover {
+  background-color: #4a5b73;
+}
+
+/* Galeria */
+.galeria-destaque {
+  margin-bottom: 15px;
+}
+
+.galeria-destaque img {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.galeria-miniaturas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 500px;
+}
+
+.galeria-miniaturas img {
+  width: 100%;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  opacity: 0.7;
+}
+
+.galeria-miniaturas img:hover {
+  opacity: 1;
+}
+
+.galeria-miniaturas img.selecionada {
+  border-color: #2f3a4c;
+  opacity: 1;
+}
+
+/* Media query: telas menores exibem 2 miniaturas por linha */
+@media (max-width: 768px) {
+  .galeria-miniaturas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #2f3a4c;
+  color: #fff;
+}
+
+/* Tema escuro */
+body.dark-mode {
+  background-color: #181818;
+  color: #eee;
+}
+
+body.dark-mode header {
+  background-color: #111;
+}
+
+body.dark-mode section h2 {
+  border-bottom-color: #444;
+}
+
+body.dark-mode .contador-controles input {
+  background-color: #333;
+  border-color: #555;
+  color: #eee;
+}
+
+body.dark-mode .galeria-destaque img {
+  border-color: #444;
+}
